@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.fav-list{
+    text-align: center;
+    color: #130f40;
+}
+
+.item{
+    background-color: #dfe6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b2bec3;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.fav-meal-container{
+    padding: 2rem;
+}
+
+.add-btn{
+    width: 12rem;
+    height: 2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn{
+    width: 14rem;
+    height: 2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mealDetails{
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.mealDetails > *{
+    margin-bottom: 0.8rem;
+}

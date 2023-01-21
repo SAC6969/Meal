@@ -1,0 +1,59 @@
+body{
+    background-color: #dff9fb;
+}
+.details_container{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.meal-img img{
+    height: 32rem;
+    width: 26rem;
+    border: 5px solid #99dadd;
+}
+
+.add-fav{
+    margin-left: 2rem;
+}
+
+.add-fav > *{
+    margin-bottom: 1.5rem;
+}
+
+.meal-name{
+    font-size: 2rem;
+}
+
+.meal-category{
+    font-size: 1.8rem;
+}
+
+.meal-cuisine{
+    font-size: 1.4rem;
+}
+
+.add-btn{
+    width: 12rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn{
+    width: 12rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
